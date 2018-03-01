@@ -1,0 +1,51 @@
+{
+  "name": "Objectified-Render-Client",
+  "version": "0.1.0",
+  "author": "Delmarc Eric Rosario <delmarc@uneek1.com>",
+  "description": "A JavaScript 'Engine'",
+  "homepage": "https://github.com/ObjectifiedJS/Objectified-Render-Client",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ObjectifiedJS/Objectified-Render-Client.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ObjectifiedJS/Objectified-Render-Client/issues"
+  },
+  "contributors": [
+    {
+      "name": "Delmarc Eric Rosario",
+      "email": "delmarc@uneek1.com"
+    }
+  ],
+  "bin": {},
+  "scripts": {
+    "start": "npm install && npm run buildCore && npm run buildModule",
+    "buildCore": "cd Objectified-Core/ gulp",
+    "buildModule": "gulp"
+  },
+  "test": "",
+  "main": "",
+  "keywords": [
+    "Objectified"
+  ],
+  "dependencies": {
+    "gulp": "",
+    "gulp-concat": "",
+    "gulp-mocha": "",
+    "gulp-open": "",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "",
+    "jshint": "^2.9.5"
+  },
+  "analyze": false,
+  "devDependencies": {
+    "gulp-jshint": "",
+    "gulp-watch": "^3.0.0",
+    "mocha": "^5.0.0"
+  },
+  "bundledDependencies": [],
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.9.0"
+  }
+}

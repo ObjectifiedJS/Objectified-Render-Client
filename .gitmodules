@@ -1,0 +1,3 @@
+[submodule "Objectified-Core"]
+	path = Objectified-Core
+	url = https://github.com/ObjectifiedJS/Objectified-Core
