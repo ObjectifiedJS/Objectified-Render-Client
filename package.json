@@ -20,7 +20,7 @@
   "bin": {},
   "scripts": {
     "start": "npm install && npm run buildCore && npm run buildModule",
-    "buildCore": "cd Objectified-Core/ gulp",
+    "buildCore": "cd Objectified-Core && npm run buildCoreForModule",
     "buildModule": "gulp"
   },
   "test": "",
